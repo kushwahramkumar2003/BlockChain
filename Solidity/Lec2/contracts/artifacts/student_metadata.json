@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/Lec2/contracts/struct.sol": "student"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/Lec2/contracts/struct.sol": {
+			"keccak256": "0x1872a42e2998b5dcbb5237a4be3835e5b91e3b89ccf82ef345be79d3e72b689f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://51c5d54a3a6fd9cbbc3a62bd1c5e93cb38886587e29735d93bfc2d3ae85b350a",
+				"dweb:/ipfs/QmUZ53TvDGYqLa34bUNWDku5x7zcnvXYterKbjc75efP87"
+			]
+		}
+	},
+	"version": 1
+}

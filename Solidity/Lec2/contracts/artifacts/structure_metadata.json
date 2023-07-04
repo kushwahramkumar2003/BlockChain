@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBookId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/Lec2/contracts/struct.sol": "structure"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/Lec2/contracts/struct.sol": {
+			"keccak256": "0x205587b73fc23d662e66d356762822f6a1c2d9a08a7027a76466074b0c99314a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://781d942dd0b4018713924258413380b8f5577efc2945cc86b6fb1d6f5b8dcf99",
+				"dweb:/ipfs/QmQXrCk2nPheicXRz8mARj48c9omAU1EARxxhhucdRQvYa"
+			]
+		}
+	},
+	"version": 1
+}
