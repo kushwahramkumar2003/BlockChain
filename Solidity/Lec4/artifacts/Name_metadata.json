@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/Lec4/infGas.sol": "Name"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/Lec4/infGas.sol": {
+			"keccak256": "0xc3b57bfec83a049e2834dc5564328e5fd373ba77de3cbeba778ac80a8fc28741",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8e3760d8901c5fbcc63dd7b7ef2a68c059d7d2aafc017ce816e4c18e3b6ace37",
+				"dweb:/ipfs/QmZSPuu4NrKPb3fZr4tgTHejvj4k7gfHU3T2FfsSAFoo3g"
+			]
+		}
+	},
+	"version": 1
+}

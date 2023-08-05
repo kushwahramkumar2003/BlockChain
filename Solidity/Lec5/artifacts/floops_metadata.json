@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "loop1",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/Lec5/loops1.sol": "floops"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/Lec5/loops1.sol": {
+			"keccak256": "0xf2659e95372f85a8423cc88fbde1e03430128344bd653eb42fc6c8c9417bdb1f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://90e1926bd2079fe081833e54cf2c3a07a1f128342de5ccb082035f69ac9f916f",
+				"dweb:/ipfs/QmWKqtyS5a26zmmmeakM1DyBKVPZjQnrGjpvceFF9EqZ9G"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/Lec4/EtherUnits.sol": "Et"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/Lec4/EtherUnits.sol": {
+			"keccak256": "0x8832a1d138a2b8a7f5feef041852a01e6a4d672b4a773063625941ebc6d27658",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://765284d5dbc104fff34eceb8de8bf8b3714dfcbed5fcd057d017c287959ab98b",
+				"dweb:/ipfs/QmZKCtYdbGnwT8YR43ZSYtpt7BmciRSh3YnFFxKFA9aYqz"
+			]
+		}
+	},
+	"version": 1
+}

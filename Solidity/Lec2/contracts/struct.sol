@@ -18,9 +18,14 @@ contract structure{
     function getBookId() public view returns(uint){
         return book.bookID;
     }
-    function getBookTitle() public view returns {
+    function getBookTitle() public view returns(string memory){
         return book.title;
     }
-
+    function getBookauthor() public view returns(string memory){
+        return book.author;
+    }
+    function getBookPrice() public view returns(uint){
+        return book.price;
+    }
 
 } 

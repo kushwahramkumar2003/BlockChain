@@ -1,13 +1,39 @@
 {
 	"compiler": {
-		"version": "0.8.6+commit.11564f7e"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getBookId",
+				"name": "isOneEther",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isOneWei",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "oneEther",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,7 +46,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getBookPrice",
+				"name": "oneWei",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -29,39 +55,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBookTitle",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBookauthor",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setBook",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -78,9 +71,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Solidity/Lec2/contracts/struct.sol": "structure"
+			"Solidity/Lec4/EtherUnits.sol": "EtherUnits"
 		},
-		"evmVersion": "berlin",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -92,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Solidity/Lec2/contracts/struct.sol": {
-			"keccak256": "0x0831ae87fc3349d40960def85560eee542b378492a7c21d822ec285511e9d8dd",
+		"Solidity/Lec4/EtherUnits.sol": {
+			"keccak256": "0xb70c8575e5bd2ac343a6fa6aa752d424875cc8bb21d72559f3512b28eaf4ada2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://671910d79fbe34e230cff22e41f2fe04881d007b3e39959069578a04c248c728",
-				"dweb:/ipfs/QmZMUGrHxA3G1Ybdm56PfighhdfDtPAgSm3cM7qfHcU6Md"
+				"bzz-raw://eef3252d8770f4e43ed8006fd152662bfecbbd1459278cf78ae82aba9eb8b959",
+				"dweb:/ipfs/QmYZG7DVVKATTFx7hNXJngzekjGsJ8j3o7zMSZG3q25LET"
 			]
 		}
 	},

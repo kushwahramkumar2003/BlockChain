@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "condition",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x",
+						"type": "int256"
+					}
+				],
+				"name": "condition2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/Lec5/ifElse.sol": "IiElse"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/Lec5/ifElse.sol": {
+			"keccak256": "0xde4ed7d68b2c059ccda55bd48b7a6a6ed800a88aafb8391f07dfb103bd100939",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a71dead9ff43323c37cb885c5576a071010ceb5c92d788aad0a07139050a41f5",
+				"dweb:/ipfs/QmcXvGsdeDv18McWNZ7sNYEuCAx8BaSRhgEiinqcegmebQ"
+			]
+		}
+	},
+	"version": 1
+}

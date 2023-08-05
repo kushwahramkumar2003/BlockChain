@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/Lec4/pure_view_function.sol": "pu"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/Lec4/pure_view_function.sol": {
+			"keccak256": "0xf58c47525331f3dcd87bdee68d0f0f7f87a09df77c4b799700140f49c2244c45",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://614ba865c91f64636b48664336606db50799b9d65324675218311364a5ec9139",
+				"dweb:/ipfs/QmSswhoD8bk7djy1cA9wWR6koga52EtUy4rbsM7j7kR5aa"
+			]
+		}
+	},
+	"version": 1
+}

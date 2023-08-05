@@ -6,8 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getBookId",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "get",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -19,8 +25,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getBookPrice",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "myMap1",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -32,34 +44,19 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getBookTitle",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBookauthor",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setBook",
+				"name": "set",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -78,7 +75,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Solidity/Lec2/contracts/struct.sol": "structure"
+			"Solidity/Lec5/mapping.sol": "myMap"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -92,12 +89,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Solidity/Lec2/contracts/struct.sol": {
-			"keccak256": "0x0831ae87fc3349d40960def85560eee542b378492a7c21d822ec285511e9d8dd",
+		"Solidity/Lec5/mapping.sol": {
+			"keccak256": "0x91f9a0a36a6733673eaa83a8bac6866b80a96c685cbd9325abb6079303cb9290",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://671910d79fbe34e230cff22e41f2fe04881d007b3e39959069578a04c248c728",
-				"dweb:/ipfs/QmZMUGrHxA3G1Ybdm56PfighhdfDtPAgSm3cM7qfHcU6Md"
+				"bzz-raw://990d014e6a16073f03f270de7ee3127b639bbd4317450e23e39ff13c4ac12a82",
+				"dweb:/ipfs/QmdAQYpHXhq2EoB8WtFqc461Qub8mzuBBsmcLe7ucvwDyV"
 			]
 		}
 	},

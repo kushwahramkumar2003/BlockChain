@@ -6,8 +6,33 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getBookId",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "z",
+						"type": "uint256"
+					}
+				],
+				"name": "AddX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "addX",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,7 +45,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getBookPrice",
+				"name": "x",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -29,39 +54,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBookTitle",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBookauthor",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setBook",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -78,7 +70,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Solidity/Lec2/contracts/struct.sol": "structure"
+			"Solidity/Lec4/pure_view_function.sol": "pureView"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -92,12 +84,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Solidity/Lec2/contracts/struct.sol": {
-			"keccak256": "0x0831ae87fc3349d40960def85560eee542b378492a7c21d822ec285511e9d8dd",
+		"Solidity/Lec4/pure_view_function.sol": {
+			"keccak256": "0x1e23157426a9175307cfea2daa3d4295c41d9169a557d1beba3b3ecbbd772e6b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://671910d79fbe34e230cff22e41f2fe04881d007b3e39959069578a04c248c728",
-				"dweb:/ipfs/QmZMUGrHxA3G1Ybdm56PfighhdfDtPAgSm3cM7qfHcU6Md"
+				"bzz-raw://fdb03c8746f4188076735fec277814bd6bf476dd4be25037ecc4434df47572b2",
+				"dweb:/ipfs/QmZYNNPtBtLwrSTfGfKmEcxmupezShEfVrGaeoybauPPUx"
 			]
 		}
 	},

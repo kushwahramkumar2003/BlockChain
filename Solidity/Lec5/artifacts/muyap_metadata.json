@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/Lec5/mapping.sol": "muyap"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/Lec5/mapping.sol": {
+			"keccak256": "0xcf797f2900187bc6763f5805a039822f1e7aac8acb78430bfd4853310cacd36a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4b48eeb55547b8f9428a51837b79b4c9d120b691f2ea0a018a6220450795cdb3",
+				"dweb:/ipfs/QmVPjMLrTg8fgGS3sy18Zv5aqrRQTdgZ2gYRH2f7Txmajn"
+			]
+		}
+	},
+	"version": 1
+}
